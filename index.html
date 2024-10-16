@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script defer src="app.js"></script>
+    <link rel="stylesheet" href="style.css" />
+    <title>Click the Ball</title>
+  </head>
+  <body>
+    <h1 class="clickTheBall">Click the Ball if You Can</h1>
+
+    <section>
+      <div class="tv">
+        <div class="gameArea">
+          <div class="ball"></div>
+        </div>
+
+        <div class="btn-group">
+          <button class="startGame">Start</button>
+          <button class="reset">Try Again</button>
+        </div>
+
+        <div class="show">
+          <h2 class="timer">Timer: 20s</h2>
+          <h2 class="score">Score: 0</h2>
+        </div>
+
+        <h2 class="ChooseDiff">Choose Difficulty:</h2>
+        <select id="difficulty">
+          <option value="easy">Easy</option>
+          <option value="medium">Medium</option>
+          <option value="hard">Hard</option>
+        </select>
+      </div>
+    </section>
+  </body>
+</html>
