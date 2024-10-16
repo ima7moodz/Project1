@@ -2,11 +2,15 @@
 
 ## **_"Click the ball"_**
 
-### Game Screenshot
+### 1. Game Screenshot
 
 ![game Image](Game_Screenshot.png)
 
-### Pseudocode:-
+### 2. Try my game
+
+[Game deploy](https://ima7moodz.github.io/Project1/)
+
+### 3. Pseudocode:-
 
 1. Define the variables used to track the state of the game:
 
